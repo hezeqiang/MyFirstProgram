@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 #include <limits>
@@ -11,9 +12,11 @@ typedef int feet;
 feet distance;//equals to int distance
 
 
-//function declarrations, which is def later.
-int func();//int since the output is the int type.
-enum color {red, green, blue=5, black} last;
+			  //function declarrations, which is def later.
+int func(void);//int since the output is the int type.
+void vape(void);
+
+enum color { red, green, blue = 5, black } last;
 
 // variable  declarations
 extern int a, b;//the extern variable can be utilized out of the program.
@@ -27,11 +30,11 @@ even you change a row, ti still remain as annotation.
 int main()//main() begin
 {
 	//variable define
-	int a = 5 , b;
+	int a = 5, b;
 	char c;
 	float f;
 	//output
-	cout << "\"Hello\t\nWorld!\"\n" << endl; 
+	cout << "\"Hello\t\nWorld!\"\n" << endl;
 	//output the word and then change a row
 	// it should be remanded that the /n/t can be used in "".
 	cout << red << endl;
@@ -39,14 +42,28 @@ int main()//main() begin
 	b = func();
 	cout << b << endl;
 
+	vape();
+
 	return 0;
 }
 
 
 //function defination
-int func()
+int func(void)
 {
 	return true;//0 is the result of the output of function.
-	//there is no input and only one output.
-	//return can be any type like int,char,etc. 
+				//there is no input and only one output.
+				//return can be any type like int,char,etc. 
+}
+
+void vape(void)
+{
+	short int i;
+	short unsigned int j;
+
+	j = 50000;
+	i = j;
+
+	cout << i << " " << j;
+
 }
