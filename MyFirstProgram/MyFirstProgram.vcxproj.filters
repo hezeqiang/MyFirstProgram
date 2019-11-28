@@ -15,11 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Debug\source1.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="源.cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
