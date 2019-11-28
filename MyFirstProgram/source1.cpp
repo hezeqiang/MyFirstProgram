@@ -14,6 +14,7 @@ int main()
 		func();
 	}
 	return 0;
+
 }
 // єЇКэ¶ЁТе
 void func(void)
