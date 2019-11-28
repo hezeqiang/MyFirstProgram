@@ -12,7 +12,9 @@ feet distance;//equals to int distance
 
 
 //function declarrations, which is def later.
-int func();//int since the output is the int type.
+int func(void);//int since the output is the int type.
+void vape(void);
+
 enum color {red, green, blue=5, black} last;
 
 // variable  declarations
@@ -39,14 +41,28 @@ int main()//main() begin
 	b = func();
 	cout << b << endl;
 
+	vape();
+
 	return 0;
 }
 
 
 //function defination
-int func()
+int func(void)
 {
 	return true;//0 is the result of the output of function.
 	//there is no input and only one output.
 	//return can be any type like int,char,etc. 
+}
+
+void vape(void)
+{
+	short int i;
+	short unsigned int j;
+
+	j = 50000;
+	i = j;
+
+	cout << i << " " << j;
+
 }
