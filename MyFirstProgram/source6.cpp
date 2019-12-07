@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	char greeting[6] = { 'H','e','l','l','o','\0' };//actually all the strings will end with '\0'
-
+	
 	cout << "Greeting message:";
 	cout << greeting << endl;
 /*
