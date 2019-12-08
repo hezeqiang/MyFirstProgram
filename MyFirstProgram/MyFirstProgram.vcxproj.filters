@@ -63,5 +63,8 @@
     <ClCompile Include="this_pointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="class_point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
