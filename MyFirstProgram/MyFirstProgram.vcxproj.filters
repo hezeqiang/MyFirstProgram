@@ -45,5 +45,23 @@
     <ClCompile Include="source9.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="object_orient_coding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="publc_inheritance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructor_destructor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inline_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="this_pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
