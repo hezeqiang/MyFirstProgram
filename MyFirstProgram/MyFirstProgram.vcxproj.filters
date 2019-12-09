@@ -33,16 +33,7 @@
     <ClCompile Include="source5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="source6.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="source7.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="source8.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="source9.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="object_orient_coding.cpp">
@@ -63,13 +54,34 @@
     <ClCompile Include="this_pointer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="class_point.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="static_variable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="inherit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="operate_overload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polymorphic_class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string_operate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data_abstrat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="total_virtual_function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
