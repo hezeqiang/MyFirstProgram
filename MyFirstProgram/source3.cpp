@@ -31,6 +31,7 @@ int main()
 	return 0;
 }
 
+// anonymous function
 void lamda(void)
 {
 	[](int x, int y) { return x < y; };// a special function definition ,return False or True.

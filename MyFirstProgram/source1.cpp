@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 // 函数声明 
+// static and external variable is two important kinds of variable
+
 
 #define LIGHT 10
 
-extern void func(void);
+
 
 int count1 = 10; /* 全局变量 */
 
@@ -15,6 +17,8 @@ int main()
 
 	cout << count1 <<endl;
 	c=a << 2;
+	cout << a << endl;
+	cout << c << endl;
 	a <<= a;
 	cout << a << endl;
 	/*
@@ -43,10 +47,7 @@ int main()
 
 	cout << LIGHT << endl;
 
-	while (count1--)
-	{
-		func();
-	}
+
 	return 0;
 }
 

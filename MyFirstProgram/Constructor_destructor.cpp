@@ -1,4 +1,3 @@
-//
 
 #include <iostream>
 
@@ -10,8 +9,7 @@ public:
 	void setLenght(double len);
 	double getLength(void);
 	Line(double len);//this is a construction
-	~Line(void);  // 这是析构函数声明,用于在函数结束是
-	//释放内存与资源，很重要。
+	~Line(void);  
 
 private:
 	double length;

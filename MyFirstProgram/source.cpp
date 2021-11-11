@@ -1,27 +1,31 @@
-
 #include <iostream>
 #include <string>
 #include <limits>
 
 using namespace std;
 
+// variable define
 #define LENGTH 10 
 
-//variable type def 
+//type def 
 typedef int feet;
 feet distance;//equals to int distance
 
 
-			  //function declarrations, which is def later.
+//function declarrations, which is def later.
 int func(void);//int since the output is the int type.
 void vape(void);
 
-enum color { red, green, blue = 5, black } last;
+enum color { red, green, blue = 5, black };
 
 // variable  declarations
 extern int a, b;//the extern variable can be utilized out of the program.
 extern char c;
 extern float f;
+
+
+// above shoulb be put in the  .h file
+
 
 /*this is annotation
 even you change a row, ti still remain as annotation.
@@ -33,17 +37,20 @@ int main()//main() begin
 	int a = 5, b;
 	char c;
 	float f;
+	color col;
+	col=blue;
 	//output
-	cout << "\"Hello\t\nWorld!\"\n" << endl;
+	cout << "\"Hello\t\nWorld!\"\n" << endl ;
 	//output the word and then change a row
 	// it should be remanded that the /n/t can be used in "".
 	cout << red << endl;
 	//invoking function
 	b = func();
 	cout << b << endl;
-
+	
 	vape();
 
+	cout << col <<endl;
 	return 0;
 }
 
@@ -61,9 +68,9 @@ void vape(void)
 	short int i;
 	short unsigned int j;
 
-	j = 50000;
+	j = 10000;
 	i = j;
 
-	cout << i << " " << j;
+	cout << i << " " << j<<"\n";
 
 }

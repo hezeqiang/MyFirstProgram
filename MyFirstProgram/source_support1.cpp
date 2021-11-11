@@ -11,3 +11,5 @@ void func(void)
 	cout << "变量 i 为 " << i;
 	cout << " , 变量 count 为 " << count1 << endl;
 }
+
+// g++ source.cpp source_support1.cpp -o source_combined

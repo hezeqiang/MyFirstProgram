@@ -45,7 +45,4 @@ int main()
 		cout << "Box2 is equal to or larger than Box1" << endl;
 	}
 	return 0;
-
-
-
 }
